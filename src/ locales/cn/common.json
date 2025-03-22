@@ -2,5 +2,9 @@
   "navigation": "导航栏",
   "footer": "版权所有 © 2023",
   "welcome": "欢迎来到我们的网站！",
-  "description": "这是一个多语言示例页面，内容区域在中间。"
+  "description": "这是一个多语言示例页面，内容区域在中间。",
+  "select-language-btn": "选择语言",
+  "user-profile": "个人资料",
+  "user-settings": "设置",
+  "user-logout": "退出登录"
 }

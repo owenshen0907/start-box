@@ -2,5 +2,9 @@
   "navigation": "ナビゲーション",
   "footer": "© 2023 全著作権所有",
   "welcome": "私たちのウェブサイトへようこそ！",
-  "description": "これは多言語の例ページで、中央にコンテンツがあります。"
+  "description": "これは多言語の例ページで、中央にコンテンツがあります。",
+  "select-language-btn": "言語を選択",
+  "user-profile": "プロフィール",
+  "user-settings": "設定",
+  "user-logout": "ログアウト"
 }

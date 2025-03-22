@@ -9,20 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/react": "^2.6.11",
+    "framer-motion": "^12.5.0",
     "next": "15.2.3",
     "next-intl": "^4.0.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "overlayscrollbars": "^2.11.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
+    "@svgr/webpack": "^8.1.0",
+    "@tailwindcss/postcss": "^4.0.15",
     "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/webpack": "^5.28.5",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9",
     "eslint-config-next": "15.2.3",
-    "tailwindcss": "^4",
+    "tailwindcss": "^4.0.15",
     "typescript": "^5"
   }
 }

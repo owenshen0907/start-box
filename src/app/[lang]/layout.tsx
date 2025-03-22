@@ -3,6 +3,8 @@ import '../globals.css';
 import { ReactNode } from 'react';
 import { getLocale } from '@/app/lib/i18n/get-locale';
 import type { Locale } from '@/app/lib/i18n/i18n-config';
+import Nav from './nav'; // 引入 Nav 组件
+
 type Props = {
     children: ReactNode;
     params: { lang: Locale } | Promise<{ lang: Locale }>;
@@ -14,14 +16,10 @@ export default async function LangLayout({ children, params }: Props) {
 
     return (
         <>
-            {/* 顶部导航 */}
-            <header className="bg-blue-500 text-white p-4">
-                <nav>
-                    <h1 className="text-xl font-bold">{translations.navigation}</h1>
-                </nav>
-            </header>
+            {/* 使用 Nav 组件传入翻译数据 */}
+            <Nav t={translations} />
 
-            {/* 主体内容 */}
+            {/* 主体内容区域 */}
             <main className="flex-1 p-4">
                 {children}
             </main>
